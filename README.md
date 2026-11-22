@@ -32,10 +32,10 @@ and register their interest in different activities.
 
 ## Group Members
 
-| Name            | Roll Number | 
-| SHANZA BUKHARI  | BSE-24S-067 | 
-| SONIA SEHAR     | BSE-24S-090 |
-| MINHA AKBAR     | BSE-24S-018 | 
+| Name            | Roll Number |  GitHub Username | Contribution |
+| SHANZA BUKHARI  | BSE-24S-067 |  allrounder123   | Home and Contact |
+| SONIA SEHAR     | BSE-24S-090 |   sonia-sehar    | Events and Event Details |
+| MINHA AKBAR     | BSE-24S-018 | minhaabar73-art  | Societies and Register |
 
 ## How to Run
 
