@@ -286,3 +286,18 @@ body {
 .team-card img {
     display: block;
 }
+/* Mobile Navigation */
+@media (max-width: 991px) {
+    .navbar .navbar-nav {
+        padding-top: 15px;
+    }
+
+    .navbar .nav-link {
+        padding: 10px 12px;
+    }
+
+    .navbar .btn-info {
+        margin-top: 12px;
+        margin-left: 0 !important;
+    }
+}
