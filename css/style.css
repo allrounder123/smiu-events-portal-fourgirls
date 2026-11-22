@@ -272,3 +272,17 @@ body {
     outline: 3px solid var(--cyan);
     outline-offset: 3px;
 }
+
+/* Image Improvements */
+.event-card img,
+.society-card img,
+.team-card img,
+.carousel-item img {
+    width: 100%;
+}
+
+.event-card img,
+.society-card img,
+.team-card img {
+    display: block;
+}
