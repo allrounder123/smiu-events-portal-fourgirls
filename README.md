@@ -32,12 +32,10 @@ and register their interest in different activities.
 
 ## Group Members
 
-| Name | Roll Number | GitHub Username | Contribution |
-|---|---|---|---|
-| Member 1 | Add roll number | Add username | Home and Registration |
-| Member 2 | Add roll number | Add username | Events and Event Details |
-| Member 3 | Add roll number | Add username | Societies |
-| Member 4 | Add roll number | Add username | Contact and README |
+| Name            | Roll Number | 
+| SHANZA BUKHARI  | BSE-24S-067 | 
+| SONIA SEHAR     | BSE-24S-090 |
+| MINHA AKBAR     | BSE-24S-018 | 
 
 ## How to Run
 
