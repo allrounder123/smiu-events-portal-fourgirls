@@ -263,3 +263,55 @@ body {
         display: none;
     }
 }
+
+/* Keyboard Accessibility */
+
+.navbar .nav-link:focus-visible,
+.btn:focus-visible,
+.site-footer a:focus-visible {
+    outline: 3px solid var(--cyan);
+    outline-offset: 3px;
+}
+
+/* Image Improvements */
+.event-card img,
+.society-card img,
+.team-card img,
+.carousel-item img {
+    width: 100%;
+}
+
+.event-card img,
+.society-card img,
+.team-card img {
+    display: block;
+}
+/* Mobile Navigation */
+@media (max-width: 991px) {
+    .navbar .navbar-nav {
+        padding-top: 15px;
+    }
+
+    .navbar .nav-link {
+        padding: 10px 12px;
+    }
+
+    .navbar .btn-info {
+        margin-top: 12px;
+        margin-left: 0 !important;
+    }
+}
+/* Reduced Motion Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
