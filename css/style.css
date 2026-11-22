@@ -263,3 +263,12 @@ body {
         display: none;
     }
 }
+
+/* Keyboard Accessibility */
+
+.navbar .nav-link:focus-visible,
+.btn:focus-visible,
+.site-footer a:focus-visible {
+    outline: 3px solid var(--cyan);
+    outline-offset: 3px;
+}
