@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home | SMIU Events Portal</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html">
+            <i class="bi bi-calendar-event"></i> SMIU EVENTS
+        </a>
+
+        <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="societies.html">Societies</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+            <a href="register.html" class="btn btn-info ms-lg-3">
+                Join an Event
+            </a>
+
+        </div>
+    </div>
+</nav>
+</header>
+
+<main>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="container">
+
+        <span class="badge bg-info mb-3">WELCOME TO CAMPUS LIFE</span>
+
+        <h1>Make Your University Days Count.</h1>
+
+        <p class="my-4">
+            Discover exciting university events, connect with student
+            societies and explore opportunities at Sindh Madressatul Islam University.
+        </p>
+
+        <a href="events.html" class="btn btn-info btn-lg me-2">
+            Explore Events
+        </a>
+
+        <a href="societies.html" class="btn btn-outline-light btn-lg">
+            Explore Societies
+        </a>
+
+    </div>
+</section>
+
+<!-- FEATURED EVENTS CAROUSEL -->
+<section class="section-space">
+    <div class="container">
+
+        <div class="section-kicker">Discover what's happening</div>
+        <h2 class="section-title mb-4">Featured Events</h2>
+
+        <div id="eventCarousel" class="carousel slide rounded-4 overflow-hidden"
+        data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#eventCarousel"
+                data-bs-slide-to="0" class="active"
+                aria-label="Slide 1"></button>
+
+                <button type="button" data-bs-target="#eventCarousel"
+                data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                <button type="button" data-bs-target="#eventCarousel"
+                data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200"
+                    class="d-block w-100" alt="University technology conference">
+
+                    <div class="carousel-caption">
+                        <h2>Technology Summit</h2>
+                        <p>Discover innovation and future technologies.</p>
+                        <a href="event-details.html" class="btn btn-light">
+                            View Event
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200"
+                    class="d-block w-100" alt="University cultural celebration">
+
+                    <div class="carousel-caption">
+                        <h2>Campus Culture Fest</h2>
+                        <p>Celebrate creativity and student talent.</p>
+                        <a href="event-details.html" class="btn btn-light">
+                            View Event
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1200"
+                    class="d-block w-100" alt="Students participating in sports">
+
+                    <div class="carousel-caption">
+                        <h2>Annual Sports Day</h2>
+                        <p>Bring your energy and team spirit.</p>
+                        <a href="event-details.html" class="btn btn-light">
+                            View Event
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button"
+            data-bs-target="#eventCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button"
+            data-bs-target="#eventCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    </div>
+</section>
+
+<!-- UPCOMING EVENTS -->
+<section class="section-space soft-section">
+    <div class="container">
+
+        <div class="section-kicker">Save your spot</div>
+        <h2 class="section-title mb-4">Upcoming Events</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card event-card">
+
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=700"
+                    class="card-img-top" alt="Students learning technology">
+
+                    <div class="card-body">
+                        <span class="badge date-badge">25 November 2026</span>
+                        <h5 class="mt-3">AI & Innovation Workshop</h5>
+                        <p class="text-secondary">
+                            Explore artificial intelligence and practical innovation.
+                        </p>
+                        <a href="event-details.html" class="btn btn-primary">
+                            View Details
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card event-card">
+
+                    <img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=700"
+                    class="card-img-top" alt="Speaker at a student debate event">
+
+                    <div class="card-body">
+                        <span class="badge date-badge">28 November 2026</span>
+                        <h5 class="mt-3">Student Debate Forum</h5>
+                        <p class="text-secondary">
+                            Share ideas and improve your communication skills.
+                        </p>
+                        <a href="event-details.html" class="btn btn-primary">
+                            View Details
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card event-card">
+
+                    <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=700"
+                    class="card-img-top" alt="Professionals at a career networking event">
+
+                    <div class="card-body">
+                        <span class="badge date-badge">02 December 2026</span>
+                        <h5 class="mt-3">Campus Career Fair</h5>
+                        <p class="text-secondary">
+                            Connect with professionals and explore career options.
+                        </p>
+                        <a href="event-details.html" class="btn btn-primary">
+                            View Details
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- WHY JOIN -->
+<section class="section-space">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <div class="section-kicker">More than lectures</div>
+            <h2 class="section-title">Why Join University Activities?</h2>
+        </div>
+
+        <div class="row g-4 text-center">
+
+            <div class="col-md-4">
+                <div class="feature-icon mx-auto mb-3">
+                    <i class="bi bi-people"></i>
+                </div>
+                <h5>Build Connections</h5>
+                <p class="text-secondary">
+                    Meet new people and build meaningful relationships.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-icon mx-auto mb-3">
+                    <i class="bi bi-lightbulb"></i>
+                </div>
+                <h5>Learn New Skills</h5>
+                <p class="text-secondary">
+                    Develop practical skills through university activities.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-icon mx-auto mb-3">
+                    <i class="bi bi-trophy"></i>
+                </div>
+                <h5>Grow with Confidence</h5>
+                <p class="text-secondary">
+                    Take responsibility and become a confident leader.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="container">
+
+        <div class="row g-4">
+
+            <div class="col-md-5">
+                <h5>SMIU Events Portal</h5>
+                <p>
+                    Discover events, connect with societies and
+                    experience university life.
+                </p>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Quick Links</h5>
+                <p><a href="events.html">Events</a></p>
+                <p><a href="societies.html">Societies</a></p>
+                <p><a href="register.html">Registration</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p><i class="bi bi-geo-alt"></i> SMIU, Karachi</p>
+                <p><i class="bi bi-envelope"></i> studentaffairs@smiu.edu.pk</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom text-center">
+            © 2026 SMIU Events Portal | Student Group Project
+        </div>
+
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
